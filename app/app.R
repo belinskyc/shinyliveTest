@@ -9,6 +9,9 @@
 
 library(shiny)
 a = read.csv("https://belinskyc.github.io/shinyliveTest/a.csv");
+b = readRDS(url("https://belinskyc.github.io/shinyliveTest/QFC_ClassInfo.rds"));
+
+
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   
